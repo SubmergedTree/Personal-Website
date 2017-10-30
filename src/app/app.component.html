@@ -1,0 +1,19 @@
+
+<div class="name">
+    Jannik Seemann
+  </div>
+  <div class="clearFloat"></div>
+  <br>
+<div class="topnav">
+  <a [routerLink]="['/']"
+     [style.background-color]="about ? 'Green' : 'Black'">About</a>
+  <a [routerLink]="['/projects']"
+     [style.background-color]="projects ? 'Green' : 'Black'">Projects</a>
+<!--  <a>Imprint</a>-->
+
+</div>
+
+
+
+
+<router-outlet></router-outlet>
