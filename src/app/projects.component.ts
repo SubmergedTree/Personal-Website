@@ -8,11 +8,10 @@ const PROJECTS = [
   +'Made between second and third semester.',
   techniques: 'C++ 14',
   github: "https://github.com/SubmergedTree/HuffmanCodingLib"},
-  {name: 'test2',
-  description: 'Simple implementation of the Huffman code algorithm. '
-  +'Made between second and third semester.',
-  techniques: 'C++ 14',
-  github: "https://github.com/SubmergedTree/HuffmanCodingLib"}
+  {name: 'This Website',
+  description: 'I made this Website to learn angular 2/4.',
+  techniques: 'Angular, CSS, HTML, Typescript',
+  github: "https://github.com/SubmergedTree/Personal-Website"}
 ];
 
 @Component({
