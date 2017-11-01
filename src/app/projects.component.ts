@@ -9,12 +9,12 @@ const PROJECTS = [
   techniques: 'C++ 14',
   github: "https://github.com/SubmergedTree/HuffmanCodingLib"},
   {name: 'This Website',
-  description: 'I made this website to learn angular 2/4.',
+  description: 'I made this website to refresh my Angular knowledge.',
   techniques: 'Angular, CSS, HTML, Typescript',
   github: "https://github.com/SubmergedTree/Personal-Website"},
   {name: 'renderer',
-  description: 'The purpose of this project was to learn basic opengl.'
-  +'It features an terrain renderer using heightmaps',
+  description: 'The purpose of this project was to learn basic opengl. '
+  +'It features a terrain renderer using heightmaps',
   techniques: 'Angular, CSS, HTML, Typescript',
   github: "https://github.com/SubmergedTree/renderer"}
 ];

@@ -8,9 +8,9 @@ import {Router} from '@angular/router';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  private route: string;
-  private about = true;
-  private projects = false;
+  public route: string;
+  public about = true;
+  public projects = false;
 
   constructor(location: Location, router: Router) {
       router.events.subscribe((val) => {
