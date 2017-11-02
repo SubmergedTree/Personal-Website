@@ -1,3 +1,9 @@
+.scrollBox {
+  overflow: auto;
+  height: 70.3vh;
+
+}
+
 .content {
   margin-left: 5%;
   margin-right: 5%;
