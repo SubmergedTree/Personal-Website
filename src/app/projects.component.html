@@ -1,9 +1,10 @@
 <div class="scrollBox">
 
-<div class="content" *ngFor="let project of projects">
+<div class="content" *ngFor="let project of items">
     <p>
-    {{project.name}}<br><br>
+    {{project.title}}<br><br>
     {{project.description}} <br><br>
+    {{project.techniques}} <br><br>
     <a href={{project.github}}>Browse Code on Github</a> <br>
     </p>
 </div>

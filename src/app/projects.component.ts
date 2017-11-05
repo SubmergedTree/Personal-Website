@@ -2,6 +2,9 @@ import {Component} from '@angular/core';
 import {Router} from '@angular/router';
 import { NgFor } from '@angular/common';
 
+import {AngularFireDatabase} from 'angularfire2/database';
+
+/*
 const PROJECTS = [
   {name: 'Huffman',
   description: 'Simple implementation of the Huffman code algorithm. '
@@ -15,9 +18,9 @@ const PROJECTS = [
   {name: 'renderer',
   description: 'The purpose of this project was to learn basic opengl. '
   +'It features a terrain renderer using heightmaps',
-  techniques: 'Angular, CSS, HTML, Typescript',
+  techniques: 'C++, SFML, openGL, GLSL',
   github: "https://github.com/SubmergedTree/renderer"}
-];
+];*/
 
 @Component({
   selector: 'projects',
@@ -25,5 +28,14 @@ const PROJECTS = [
   styleUrls: ['./projects.component.css']
 })
 export class ProjectsComponent {
-  projects = PROJECTS;
+  public items: any[];
+
+  constructor(db: AngularFireDatabase){
+    db.list('/items').valueChanges().subscribe(items => {
+      this.items = items;
+      console.log(this.items);
+    });
+  }
+
+//  projects = PROJECTS;
 }
