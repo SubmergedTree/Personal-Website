@@ -1,5 +1,10 @@
 <div class="scrollBox">
 
+<div class="loadingSign" *ngIf="isLoading">
+      Loading
+
+</div>
+
 <div class="content" *ngFor="let project of items">
     <p>
     {{project.title}}<br><br>

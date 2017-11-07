@@ -1,7 +1,6 @@
 .scrollBox {
   overflow: auto;
   height: 65vh;
-
 }
 
 .content {
@@ -13,6 +12,13 @@
 p {
   border-style: solid;
 }
-
+/*
 .projectName {
+}*/
+
+.loadingSign {
+  font-size: 10em;
+  text-align: center;
+  color: Black;
+  font-style: italic;
 }
