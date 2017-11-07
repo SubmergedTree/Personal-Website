@@ -15,7 +15,6 @@ export class AppComponent {
 
   constructor(location: Location, router: Router) {
 
-
       router.events.subscribe((val) => {
           if(location.path() != '') {
             this.route = location.path();
