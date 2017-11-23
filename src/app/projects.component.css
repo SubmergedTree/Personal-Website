@@ -19,3 +19,13 @@ p {
   color: Black;
   font-style: italic;
 }
+
+@media screen and (max-width: 600px) {
+  .scrollBox {
+    height: auto;
+    overflow: visible;
+  }
+  .loadingSign {
+    font-size: 3em;
+  }
+}

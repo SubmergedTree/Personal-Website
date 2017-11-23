@@ -41,9 +41,6 @@ body {
 .selected {
   background-color: #f21 !important;
 }
-
-
-
 .footer {
   position: fixed;
   left: 0;
@@ -53,4 +50,24 @@ body {
   color: green;
   text-align: center;
   font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a {
+    font-size: 2em;
+  }
+  .name {
+    float: none;
+    font-size: 4em;
+  }
+/*  .footer {
+    position: inherit;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: green;
+    text-align: center;
+    font-size: 2em;
+  }*/
 }
